@@ -26,6 +26,19 @@ body{
   background: #006A50;
   color: #fff;
 }
+.btn-secondary{
+  background: #006A50;
+  font-size: 18px;
+  font-weight: 600;
+  color: #fff;
+  padding: 17px 34px;
+  border-radius: 8px;
+  border: none;
+}
+.btn-secondary:hover{
+  background: #fff;
+  color: #006A50;
+}
 
 /* Navbar Styles */
 
@@ -33,11 +46,36 @@ nav{
   display: flex;
   justify-content: space-between;
   align-items: center;
+  gap: 64px;
 }
 .nav-title{
 font-size: 32px;
 font-weight: bold;
 color: #0E0E0E;
-/* margin-left: 160px; */
 }
 
+/* Banner Styles */
+
+.banner{
+  background-color: #C6E4D6;
+  display: flex;
+  justify-content: space-between;
+  padding: 80px 60px;
+  border-radius: 24px;
+}
+.banner-content{
+max-width: 622px;
+}
+.banner-subtitle{
+  font-size: 24px;
+  font-weight: 500px;
+  color: rgba(14, 14, 14, 0.5);
+}
+.banner-title{
+  font-size: 56px;
+  font-weight: bold;
+  color: #0E0E0E;
+}
+.banner-img{
+  max-width: 474.03px;
+}
