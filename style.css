@@ -21,10 +21,12 @@ body{
   color: #006A50;
   padding: 15px 30px;
   border-radius: 8px;
+  border: 1px solid #006A50;
 }
 .btn-primary:hover{
   background: #006A50;
   color: #fff;
+  border: none;
 }
 .btn-secondary{
   background: #006A50;
@@ -38,6 +40,7 @@ body{
 .btn-secondary:hover{
   background: #fff;
   color: #006A50;
+  border: 1px solid #000;
 }
 
 /* Navbar Styles */
