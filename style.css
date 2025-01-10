@@ -14,6 +14,7 @@ body{
   max-width: 1400px;
   margin: 0 auto;
   padding: 0 30px;
+  margin-bottom: 80px;
 }
 .section-title{
   font-size: 40px;
@@ -53,7 +54,7 @@ p{
   border: 1px solid #000;
 }
 
-/* Navbar Styles */
+/* Navbar Styles (Header) */
 
 nav{
   display: flex;
@@ -67,7 +68,7 @@ font-weight: bold;
 color: #0E0E0E;
 }
 
-/* Banner Styles */
+/* Banner Styles (Header) */
 
 .banner{
   background-color: #C6E4D6;
@@ -93,7 +94,7 @@ max-width: 622px;
   max-width: 474.03px;
 }
 
-/* Pillar-Section Styles */
+/* Pillar-Section Styles (Main)*/
 
 .pillars-container {
   display: flex;
@@ -109,4 +110,48 @@ max-width: 622px;
   font-weight: bold;
   color: #0E0E0E;
   margin-bottom: 12px;
+}
+
+/* Vision-Section Styles (Main) */
+.vision-container{
+  display: flex;
+  gap: 24px;
+}
+.vision{
+  width: 410.67px;
+  padding: 32px;
+  border-radius: 16px;
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+.v1 {
+  background-color: rgba(84, 144, 245, 0.2);
+}
+.v2{
+  background-color: rgba(9, 161, 93, 0.274)
+}
+.v3{
+  background-color: rgba(255, 196, 57, 0.281);
+}
+
+/* Button Styles (Main) */
+.b1{
+  background: #5490F5;
+}
+.b1:hover{
+  color: #5490F5;
+  border: 1px solid #5490F5;
+}
+.b2{
+  background: #09A15C;
+}
+.b2:hover{
+  color: #09A15C;
+  border: 1px solid #09A15C;
+}
+.b3{
+  background: #FFC239;
+}
+.b3:hover{
+  color: #FFC239;
+  border: 1px solid #FFC239;
 }
