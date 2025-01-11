@@ -113,6 +113,11 @@ max-width: 622px;
   color: #0E0E0E;
   margin-bottom: 12px;
 }
+.pillars-container img {
+  width: 64px;
+  height: 64px;
+  border-radius: 8px;
+}
 
 /* Vision-Section Styles (Main) */
 .vision-container{
@@ -124,6 +129,11 @@ max-width: 622px;
   padding: 32px;
   border-radius: 16px;
   box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+.vision img{
+  width: 64px;
+  height: 64px;
+  border-radius: 8px;
 }
 .v1 {
   background-color: rgba(84, 144, 245, 0.2);
@@ -166,8 +176,9 @@ box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
 border-radius: 16px;
 margin-top: 32px;
 border: 1px solid #0000001f;
-
+position: relative;
 }
+
 .quotation-content{
   font-size: 16px;
   font-weight: 400px;
@@ -237,6 +248,11 @@ tbody option{
   
 
 /* News Section */ 
+.news .main-img {
+  border-radius: 24px;
+  width: 408px;
+  height: 306px;
+}
 .news-container{
   margin-top: 32px;
 }
@@ -247,12 +263,37 @@ tbody option{
   padding: 56px 48px;
   box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.075);
   border-radius: 24px;
-
 }
-
 
 /* News Button Styles */
 
+.news-btn1{
+  background:#4f0ba7b0;
+  color: #fff;
+}
+.news-btn1:hover{
+  background:#fff;
+  color: #4f0ba7b0;
+  border: 1px solid #4f0ba7b0;
+}
+.news-btn2{
+  background:#805804b6;
+  color: #fff;
+}
+.news-btn2:hover{
+  background: #fff;
+  color: #805804b6;
+  border: 1px solid #805804b6;
+}
+.news-btn3{
+  background:#0e9102;
+  color: #fff;
+}
+.news-btn3:hover{
+  background:#fff;
+  color: #0e9102;
+  border: 1px solid #0e9102;
+}
 /* Donate Section Styles */
 .donate-section{
   text-align: center;
@@ -271,6 +312,7 @@ tbody option{
   max-height: 128px;
   padding: 0 40px;
   border-radius: 16px;
+  cursor: pointer;
 }
 .card1{
   background-color: #c79b3d56;
