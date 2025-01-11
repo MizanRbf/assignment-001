@@ -188,20 +188,55 @@ background-position-y: -23px;
 
 /* Opinion-Table Styles */
 
+.opinion-container{
+ border: 1px solid #0000001f;
+ padding: 32px;
+ border-radius: 16px;
+}
+thead{
+  background-color: #C6E4D6;
+}
+thead th {
+  padding: 24px;
+  font-size: 20px;
+}
+thead .question{
+  text-align: left;
+}
+thead .opinion{
+  text-align: right;
+}
 .opinion-table{
   border: 1px solid #0000001f;
+  width: 100%;
   padding: 32px;
-  border-radius: 16px;
-  display: block;
+  /* display: block; */
   border-collapse: collapse;
 }
 tr,
 td {
   border: 1px solid #0000001f;
-  
 }
+ tbody td{
+  padding: 36.05px 24px;
+  font-size: 16px;
+  font-weight: 600px;
+  padding: 36px 24px;
+}
+tbody select{
+  background-color: #C6E4D6;
+  padding: 12px;
+  border-radius: 4px;
+ 
+  font-size: 16px;
+  font-weight: 500px;
+}
+tbody option{
+  padding: 12.05px auto;
+}
+  
 
-/* News Section */
+/* News Section */ 
 .news-container{
   margin-top: 32px;
 }
@@ -237,8 +272,33 @@ td {
   padding: 0 40px;
   border-radius: 16px;
 }
+.card1{
+  background-color: #c79b3d56;
+}
+.card1:hover{
+  background-color: #c28605d5;
+  color: #fff;
+}
 .card2{
   background-color: #C6E4D6;
+}
+.card2:hover{
+  background-color: #047e45d3;
+  color: #fff;
+}
+.card3{
+  background-color: #0746bd1a;
+}
+.card3:hover{
+  background-color: #0542b3ad;
+  color: #fff;
+}
+.card4{
+  background-color: #a340ac2d;
+}
+.card4:hover{
+  background-color: #bd21a8d0;
+  color: #fff;
 }
 .amount-input{
   margin: 32px auto;
