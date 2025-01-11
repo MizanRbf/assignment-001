@@ -52,6 +52,7 @@ p{
   background: #fff;
   color: #006A50;
   border: 1px solid #000;
+  cursor: pointer;
 }
 
 /* Navbar Styles (Header) */
@@ -239,11 +240,35 @@ td {
 .card2{
   background-color: #C6E4D6;
 }
-input{
+.amount-input{
   margin: 32px auto;
-  width: 1032px;
+  width: 100%;
   text-align: center;
   border: none;
   box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.24);
   padding: 20px;
+  display: block;
+}
+
+/* Subscribe Section Styles */
+.subscribe-container{
+  background-color: #C6E4D6;
+  border-radius: 24px;
+  text-align: center;
+  padding: 80px 265px;
+}
+.subscribe-input{
+  display: flex;
+  justify-content: center;
+}
+.email-input {
+  width: 600px;
+  padding: 18px 403px 18px 40px;
+  border-radius: 8px 0 0 8px;
+  border: none;
+}
+.btn-subscribe{
+  border-radius: 0 8px 8px 0;
+  border: none;
+
 }
