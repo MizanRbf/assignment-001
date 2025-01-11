@@ -175,7 +175,6 @@ max-width: 622px;
 /* Quotation Styles (Main) */
 
 .quotation{
-padding: 48px 24px;
 box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
 border-radius: 16px;
 margin-top: 32px;
@@ -187,7 +186,9 @@ border: 1px solid #0000001f;
   margin-bottom: 12px;
   background-image: url(images/quote-bg.png);
   background-repeat: no-repeat;
-  background-position-y: -23px;
+  background-position-y: 23px;
+  background-position-x: 24px;
+  padding: 48px 24px;
 }
 .chief-adviser{
   font-size: 20px;
