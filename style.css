@@ -272,3 +272,20 @@ td {
   border: none;
 
 }
+
+/* Footer Section Styles */
+footer{
+  text-align: center;
+  padding: 50px auto;
+  margin-top: 80px;
+}
+
+.social-icon{
+  display: flex;
+  gap: 23px;
+  justify-content: center;
+}
+#h-line{
+  width: 1122px;
+  color: rgba(255, 255, 255, 1);
+}
