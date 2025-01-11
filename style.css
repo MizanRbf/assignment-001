@@ -202,7 +202,7 @@ td {
 
 /* News Section */
 .news-container{
-  
+  margin-top: 32px;
 }
 .news {
   display: flex;
@@ -217,3 +217,33 @@ td {
 
 /* News Button Styles */
 
+/* Donate Section Styles */
+.donate-section{
+  text-align: center;
+}
+.donate-container{
+  margin-bottom: 32px;
+}
+.amount-cards{
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+}
+.card{
+  border: 1px solid #0000001f;
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.075);
+  max-height: 128px;
+  padding: 0 40px;
+  border-radius: 16px;
+}
+.card2{
+  background-color: #C6E4D6;
+}
+input{
+  margin: 32px auto;
+  width: 1032px;
+  text-align: center;
+  border: none;
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.24);
+  padding: 20px;
+}
