@@ -363,14 +363,14 @@ tbody option{
   border-bottom: 1px solid #ddd;
 }
 
-/* Subscribe Section Styles */
-.subscribe-container{
+/* Form Section Styles */
+.form-container{
   background-color: #C6E4D6;
   border-radius: 24px;
   text-align: center;
   padding: 80px 265px;
 }
-.subscribe-input{
+.form-input{
   display: flex;
   justify-content: center;
 }
@@ -380,7 +380,7 @@ tbody option{
   border-radius: 8px 0 0 8px;
   border: none;
 }
-.btn-subscribe{
+.btn-form{
   border-radius: 0 8px 8px 0;
   border: none;
 
@@ -400,5 +400,5 @@ footer{
   margin-bottom: 50px;
 }
 #h-line{
-  width: 1122px;
+  opacity: 0.2;
 }
