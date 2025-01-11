@@ -188,16 +188,20 @@ border: 1px solid #0000001f;
   background-repeat: no-repeat;
   background-position-y: 23px;
   background-position-x: 24px;
-  padding: 48px 24px;
+  padding: 48px 24px 10px 24px;
 }
 .chief-adviser{
   font-size: 20px;
   font-weight: 600px;
-  margin-bottom: 4px;
+  padding-left: 24px;
+  padding-bottom: 0;
+  margin-bottom: 0;
 }
 .position{
   font-size: 16px;
   font-weight: 400px;
+  padding-left: 24px;
+  padding-bottom: 48px;
 }
 
 /* Opinion-Table Styles */
@@ -383,8 +387,11 @@ tbody option{
 }
 .btn-form{
   border-radius: 0 8px 8px 0;
-  border: none;
+  border: none !important;
 
+}
+.btn-form:hover{
+  background:#006a501c;
 }
 
 /* Footer Section Styles */
