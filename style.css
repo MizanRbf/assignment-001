@@ -184,3 +184,36 @@ background-position-y: -23px;
   font-size: 16px;
   font-weight: 400px;
 }
+
+/* Opinion-Table Styles */
+
+.opinion-table{
+  border: 1px solid #0000001f;
+  padding: 32px;
+  border-radius: 16px;
+  display: block;
+  border-collapse: collapse;
+}
+tr,
+td {
+  border: 1px solid #0000001f;
+  
+}
+
+/* News Section */
+.news-container{
+  
+}
+.news {
+  display: flex;
+  gap: 32px;
+  margin-bottom: 24px;
+  padding: 56px 48px;
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.075);
+  border-radius: 24px;
+
+}
+
+
+/* News Button Styles */
+
