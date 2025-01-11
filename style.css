@@ -10,10 +10,14 @@ body{
 }
 
 /* Shared Styles */
+
 .container{
   max-width: 1400px;
   margin: 0 auto;
   padding: 0 30px;
+}
+.container .header,
+ section{
   margin-bottom: 80px;
 }
 .section-title{
@@ -176,16 +180,14 @@ box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
 border-radius: 16px;
 margin-top: 32px;
 border: 1px solid #0000001f;
-position: relative;
 }
-
 .quotation-content{
   font-size: 16px;
   font-weight: 400px;
   margin-bottom: 12px;
   background-image: url(images/quote-bg.png);
-background-repeat: no-repeat;
-background-position-y: -23px;
+  background-repeat: no-repeat;
+  background-position-y: -23px;
 }
 .chief-adviser{
   font-size: 20px;
@@ -211,10 +213,10 @@ thead th {
   padding: 24px;
   font-size: 20px;
 }
-thead .question{
+thead .heading1{
   text-align: left;
 }
-thead .opinion{
+thead .heading2{
   text-align: right;
 }
 .opinion-table{
@@ -224,21 +226,24 @@ thead .opinion{
   /* display: block; */
   border-collapse: collapse;
 }
+tbody .option-td{
+  width: 150px;
+}
 tr,
 td {
   border: 1px solid #0000001f;
 }
  tbody td{
-  padding: 36.05px 24px;
+  padding: 24px;
   font-size: 16px;
   font-weight: 600px;
   padding: 36px 24px;
 }
 tbody select{
+  width: 150px;
   background-color: #C6E4D6;
   padding: 12px;
   border-radius: 4px;
- 
   font-size: 16px;
   font-weight: 500px;
 }
@@ -272,7 +277,7 @@ tbody option{
   color: #fff;
 }
 .news-btn1:hover{
-  background:#fff;
+  background:#4f0ba71e;
   color: #4f0ba7b0;
   border: 1px solid #4f0ba7b0;
 }
@@ -281,22 +286,24 @@ tbody option{
   color: #fff;
 }
 .news-btn2:hover{
-  background: #fff;
+  background: #8059041a;
   color: #805804b6;
   border: 1px solid #805804b6;
 }
 .news-btn3{
-  background:#0e9102;
+  background:#052c97c5;
   color: #fff;
 }
 .news-btn3:hover{
-  background:#fff;
-  color: #0e9102;
-  border: 1px solid #0e9102;
+  background:#052c971e;
+  color: #052c97c5;
+  border: 1px solid #052c97c5;
 }
 /* Donate Section Styles */
+
 .donate-section{
   text-align: center;
+  
 }
 .donate-container{
   margin-bottom: 32px;
@@ -309,10 +316,13 @@ tbody option{
 .card{
   border: 1px solid #0000001f;
   box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.075);
-  max-height: 128px;
-  padding: 0 40px;
+  padding: 20px 40px;
   border-radius: 16px;
   cursor: pointer;
+}
+.card h1 {
+  font-size: 40px;
+  font-weight: bold;
 }
 .card1{
   background-color: #c79b3d56;
@@ -347,9 +357,10 @@ tbody option{
   width: 100%;
   text-align: center;
   border: none;
-  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.24);
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.123);
   padding: 20px;
   display: block;
+  border-bottom: 1px solid #ddd;
 }
 
 /* Subscribe Section Styles */
@@ -386,8 +397,8 @@ footer{
   display: flex;
   gap: 23px;
   justify-content: center;
+  margin-bottom: 50px;
 }
 #h-line{
   width: 1122px;
-  color: rgba(255, 255, 255, 1);
 }
